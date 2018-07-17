@@ -52,7 +52,7 @@ var oMatterLandingCommonObjects = {
 
 /* Azure page URLs */
 var azurePages = {
-    "managePermission": "[[[Manage Permission Relative Url]]]"
+    "managePermission": "/#/matterusers"
 };
 
 /* Modal Dialog object */
@@ -352,8 +352,8 @@ function receiveMessage(event) {
 /* Attaches all the content on the page */
 function displayContent() {
    "use strict";    
-   var url = "[[[Catalog site Url]]]/SiteAssets/Matter Center Assets/Common Assets/Scripts/uiconfigforspo.js";
-   var configJSUrl = "[[[Catalog site Url]]]/SiteAssets/Matter Center Assets/Common Assets/Scripts/config.js";
+   var url = "https://ewdev1.sharepoint.com/sites/apps/SiteAssets/Matter Center Assets/Common Assets/Scripts/uiconfigforspo.js";
+   var configJSUrl = "https://ewdev1.sharepoint.com/sites/apps/SiteAssets/Matter Center Assets/Common Assets/Scripts/config.js";
 
    $.getScript( url, function() {
    		$.getScript( configJSUrl, function() {

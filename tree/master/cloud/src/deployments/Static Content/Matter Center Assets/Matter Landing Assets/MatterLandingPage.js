@@ -17,14 +17,14 @@ oGlobalConstants.sShareTitle = "Share";
 oGlobalConstants.sPinColumn = "UserPinDetails";
 oGlobalConstants.sUserAliasColumn = "UserAlias";
 oGlobalConstants.sListName = "UserPinnedMatter";
-oGlobalConstants.applicationInsightsId = "[[[App Insights ID]]]";
+oGlobalConstants.applicationInsightsId = "09d1caf2-a5ab-40d3-a86b-b25c5c3cd4b3";
 oGlobalConstants.eventName = "";
 oGlobalConstants.Pin_Matter = "PinMatter";
 oGlobalConstants.Unpin_Matter = "UnpinMatter";
 oGlobalConstants.Share_Matter = "ShareMatter";
 oGlobalConstants.Go_To_OneNote = "GoToOneNote";
 oGlobalConstants.sProvisionMatterGroupName = "Provision Matter Users";
-oGlobalConstants.sCatalogSiteUrl = "[[[Catalog site Url]]]";
+oGlobalConstants.sCatalogSiteUrl = "https://ewdev1.sharepoint.com/sites/apps";
 oGlobalConstants.sEditUserLink = "Edit users";
 oGlobalConstants.sAddUserLink = "Add users";
 oGlobalConstants.sNoBlockedUserMessage = "No blocked users";
@@ -37,7 +37,7 @@ oGlobalConstants.iBlockedUsersCount = 0;
 oGlobalConstants.sBlockedUsersChunk = "";
 oGlobalConstants.sUsersChunk = "";
 oGlobalConstants.iPresenceCount = 100000;
-oGlobalConstants.sWebDashboardUrl = "[[[Tenant Web Dashboard Url]]]";
+oGlobalConstants.sWebDashboardUrl = "/sitepages/MatterCenterHome.aspx";
 oGlobalConstants.sNA = "NA";
 oGlobalConstants.oListItem = null;
 oGlobalConstants.sAppName = "ProvisionDMSMatter";
@@ -47,7 +47,7 @@ oGlobalConstants.sEffectivePermissionUrl = "/{0}/_api/Web/lists/getbytitle('{1}'
 var oGlobalModalDialog = {
     width: 770,
     height: 500,
-    url: "[[[Manage Permission Url]]]",
+    url: "https://MatterCenterWeb07171927.azurewebsites.net/#/matterusers",
     EditUserTitle: "Edit users",
     AddUserTitle: "Add users"
 };
