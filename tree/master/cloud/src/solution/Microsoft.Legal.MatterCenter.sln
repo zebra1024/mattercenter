@@ -5,6 +5,7 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{86D26D6E-2C06-4E6F-804B-4A4C540591D4}"
 	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
 		Local.testsettings = Local.testsettings
 	EndProjectSection
 EndProject

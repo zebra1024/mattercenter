@@ -143,7 +143,10 @@ namespace Microsoft.Legal.MatterCenter.Web.Common
         public static void GetCert(IConfiguration configurtaion)
         {
             var clientAssertionCertPfx = CertificateHelper.FindCertificateByThumbprint(configurtaion["General:KeyVaultCertThumbPrint"].ToString());
-            AssertionCert = new ClientAssertionCertificate(configurtaion["General:KeyVaultClientID"], clientAssertionCertPfx);
+            if (clientAssertionCertPfx != null)
+            {
+                AssertionCert = new ClientAssertionCertificate(configurtaion["General:KeyVaultClientID"], clientAssertionCertPfx);
+            }
         }
 
         /// <summary>
