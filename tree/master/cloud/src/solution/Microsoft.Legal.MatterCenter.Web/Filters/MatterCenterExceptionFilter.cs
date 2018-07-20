@@ -71,10 +71,10 @@ namespace Microsoft.Legal.MatterCenter.Service.Filters
             //Create properties that need to be added to application insights
             var properties = new Dictionary<string, string>();
             properties.Add("StackTrace", response.StackTrace);
-            properties.Add("LineNumber", response.LineNumber.ToString());
-            properties.Add("MethodName", response.MethodName.ToString());
-            properties.Add("ClassName", response.ClassName.ToString());
-            properties.Add("ErrorCode", response.ErrorCode.ToString());           
+            properties.Add("LineNumber", SetDefaultIfNull(response.LineNumber,"Not Set"));
+            properties.Add("MethodName", SetDefaultIfNull(response.MethodName,"Not Set"));
+            properties.Add("ClassName", SetDefaultIfNull(response.ClassName,"Not Set"));
+            properties.Add("ErrorCode", SetDefaultIfNull(response.ErrorCode,"Not Set"));           
 
             //Create Telemetry object to add exception to the application insights
             var ai = new TelemetryClient();
@@ -92,5 +92,29 @@ namespace Microsoft.Legal.MatterCenter.Service.Filters
                 DeclaredType = typeof(ErrorResponse)                
             };
         }
+        private string SetDefaultIfNull(string val, string defaultVal)
+        {
+            if (val == null)
+            {
+                return (defaultVal);
+            }
+            else
+            {
+                return (val);
+            }
+        }
+
+        private string SetDefaultIfNull(int? val, string defaultVal)
+        {
+            if (val.HasValue == false)
+            {
+                return (defaultVal);
+            }
+            else
+            {
+                return (val.ToString());
+            }
+        }
+
     }
 }
