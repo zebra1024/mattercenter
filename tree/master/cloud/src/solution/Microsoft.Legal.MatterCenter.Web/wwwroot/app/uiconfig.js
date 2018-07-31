@@ -77,7 +77,7 @@
     "Tab1LabelPrimaryTypeText": "Please select primary matter type",
     "Tab1LabelPrimaryTypeBeforeSaveText": "Please select primary matter type before you save.",
     "Tab1ButtonSaveSelectiponText": "Save Selections",
-    "notify": "Matter is successfully created. You can find recently created matter over",
+    "LabelSuccessEntityCreation": "Matter is successfully created. You can find recently created matter over",
     "LabelEntityCreationSuccessMsgText3": "Step 3/3: Updating metadata of matter library and sharing matter with the users... ",
     "LabelEntityCreationSuccessMsgText2": "Step 2/3: Assigning permissions to matter library and OneNote library, associating Content Types, creating view and matter landing page...",
     "LabelEntityCreationSuccessMsgText1": "Step 1/3: Creating matter library and OneNote library...",
@@ -89,10 +89,10 @@
     "ErrorMessageEntityTeamRole2": "Enter at least one Responsible Attorney for this matter.",
     "ErrorMessageConflictUser": "Enter the conflict reviewers name (for auditing purposes).",
     "ErrorMessageConflictUser1": "Enter users that are conflicted with this matter.",
-    "ErrorMessageEntityUsers1": " Please enter valid team members. ",
-    "ErrorMessageEntityUsers2": " Please enter individual who is not conflicted. ",
-    "ErrorMessageEntityUsers3": " Please enter a valid email address. ",
-    "ErrorMessageEntityCreation1": " Error in creation of matter: Incorrect inputs.",
+    "ErrorMessageEntityUsers1": "Please enter valid team members. ",
+    "ErrorMessageEntityUsers2": "Please enter individual who is not conflicted. ",
+    "ErrorMessageEntityUsers3": "Please enter a valid email address. ",
+    "ErrorMessageEntityCreation1": "Error in creation of matter: Incorrect inputs.",
     "ErrorMessageEntityId1": "Enter a matter ID.",
     "ErrorMessageSelectType": "Select matter type by area of law for this matter",
     "ErrorMessageSpecialCharacters": "Please enter a valid text which contains only alphanumeric characters, spaces & hyphen",
@@ -135,8 +135,7 @@
     "AriaLabelInfoTypeButton": "Info before saving matter type",
     "AriaLabelAddMoreUser": "Add more user in assign team for this matter",
     "LinkAddMoreUserTitle": "Add More Name",
-    "AriaLabelConflictCheckBox": "Select check box for conflict identified. Checkbox required",
-    "LabelSuccessEntityCreation": "Matter is successfully created. You can find recently created matter over"
+    "AriaLabelConflictCheckBox": "Select check box for conflict identified. Checkbox required"
   },
   "DocumentDashboard": {
     "LinkImageLoadingTitle": "Matter Center Home",
@@ -172,7 +171,7 @@
     "DrpDownOption2Text": "Alphabetical",
     "DrpDownOption3Text": "Created date",
     "DrpDownOption4Text": "Modified date",
-    "MattersPreLoadingMsgText": " Please wait while the Documents load.",
+    "MattersPreLoadingMsgText": "Please wait while the Documents load.",
     "AttachmentLoadingText": "Loading...",
     "GridColumn1Header": "Document",
     "GridColumn2Header": "Client",
@@ -453,7 +452,7 @@
     "AriaLabelDropdown1Item1": "Combobox list item 1 - All Matters",
     "AriaLabelDropdown1Item2": "Combobox list item 2 - My Matters",
     "AriaLabelDropdown1Item3": "Combobox list item 3 - Pinned Matters",
-    "AriaLabelSearchMatterButton": "Activate button to search matter"
+    "AriaLabelSearchMatterButton": "Click button to search matter"
   },
   "Navigation": {
     "MenuItem1LinkTitle": "Home",
@@ -466,7 +465,7 @@
     "MenuImageCloseTitle": "Close App Switcher",
     "HeaderBarLink1Text": "Learn More",
     "HomeMenuText": "Home",
-    "Image1Title": "Search matters",
+    "Image1Title": "Search projects",
     "Image2Title": "Search documents",
     "HelpRequesURL": "https://msmatter.sharepoint.com/sites/catalog",
     "FooterLabel": "Questions? Contact",
@@ -577,7 +576,7 @@
   },
   "Home": {
     "MatterCenterSupportLinkText": "Matter Center Aisling Support",
-    "MatterCenterSupportLink": "mailto:lcaweb2@microsoft.com",
+    "MatterCenterSupportLink": "mailto:support@supportsite.com",
     "HelpRequesURL": "https://msmatter.sharepoint.com/sites/catalog",
     "ContextualHelpHeader": "Matter Center For Outlook",
     "ContextualHelpBottomText": "Questions? Contact ",
